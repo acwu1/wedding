@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Hugo Story"
+title = "Brett and Albert"
 copyright = "{year}"
 
 ## -----------------------------------------------
@@ -32,17 +32,17 @@ disableKinds = ["taxonomy", "section"]
 ## -----------------------------------------------
 
 [Params]
-  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  description = "Brett and Albert's Wedding'"
   logo = "images/banner.jpg"
   favicon = true
 
 [Params.social]
-  github = "https://github.com/caressofsteel/"
-  twitter = "https://twitter.com/caressofsteel_"
-  email = "caressofsteel@protonmail.com"
-  instagram = "https://instagram.com"
-  linkedin = "https://linkedin.com"
-  telegram = "https://telegram.org"
+  github = "https://github.com/acwu1/"
+  #twitter = "https://twitter.com/caressofsteel_"
+  email = "albert.c.wu@gmail.com"
+  instagram = "https://instagram.com/aonicc"
+  #linkedin = "https://linkedin.com"
+  #telegram = "https://telegram.org"
 
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
