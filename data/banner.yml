@@ -2,9 +2,9 @@
 style: "style1 orient-left content-align-right image-position-center fullscreen onload-image-fade-in onload-content-fade-right"
 title : "6 | 27 | 26"
 subtitle: |
-  Join us in Boulder, Colorado at the St. Julien Hotel on the weekend of June 27, 2026
+  Join us in Boulder, Colorado to celebrate Brett and Albert on the weekend of June 27, 2026
 content : |
-  More details coming soon! In the meantime, if you know that your plans will not allow you to join us in Boulder next June, please let us know below:
+  More details coming soon! In the meantime, if you know that your plans will not allow you to join us in Boulder next June, please let us know below.
 button:
   label : "Early Regrets"
   link : "#earlyregrets"

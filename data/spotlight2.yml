@@ -3,24 +3,28 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "travel"
 title : "Travel"
 content: |
-  <p><strong>St. Julien Hotel & Spa</strong><br />
-  900 Walnut Street<br />
-  Boulder, CO 80302</p> 
-  
   <p>Our weekend wedding celebration will take place in downtown Boulder, CO, centered on the St. Julien Hotel and Spa. The Friday evening welcome celebration and Sunday farewell brunch are planned to be within walking distance or a short care ride from the St. Julien; charter bus transportation will be provided between the St. Julien and the ceremony at Sunrise Amphitheatre.</p>
   <p>The Denver International Airport (DEN) is the closest airport; ground transportation is available between DEN and downtown Boulder.</p>
-  <p>Rooms at the St. Julien can be booked at the group rate by clicking below, or reserve rooms at any other local hotel.</p>
-  <!-- ul class="alt">
-  <li><strong><a href="https://www.hilton.com/en/hotels/wbubogi-hilton-garden-inn-boulder/" target="_blank">Hilton Garden Inn Boulder</a><br />
-  2701 Canyon Blvd, Boulder, CO 80302</li>
-  <li><strong><a href="https://www.marriott.com/en-us/hotels/vbobl-residence-inn-boulder-canyon-boulevard/" target="_blank">Residence Inn by Marriott Boulder - Canyon Boulevard</a><br />
-  2550 Canyon Blvd, Boulder, CO 80302</li>
-  <li><strong><a href="https://www.marriott.com/en-us/hotels/denbo-boulder-marriott/" target="_blank">Boulder Marriott</a><br />
-  2660 Canyon Blvd, Boulder, CO 80302</li>
-  <li><strong><a href="https://www.hyatt.com/hyatt-place/en-US/denzb-hyatt-place-boulder-pearl-street" target="_blank">Hyatt Place Boulder - Pearl Street</a><br />
-  2280 Junction Pl, Boulder, CO 80301</li>
-  </ul -->  
+  
+  <hr />
+  
+  <p><strong>St. Julien Hotel & Spa</strong><br />
+  900 Walnut Street<br />
+  Boulder, CO 80302<br /><br />
+  +1 (720) 406-9696<br /> 
+  <a href="mailto:sjreservations@stjulien.com">sjreservations@stjulien.com</a></p> 
+  
+  
+  <p>Rooms at the St. Julien can be booked at the group rate by clicking below, or here are a few other nearby hotels:</p>
+  
+  <ul>
+  <li><a href="https://www.hilton.com/en/hotels/wbubogi-hilton-garden-inn-boulder/" target="_blank">Hilton Garden Inn Boulder</a></li>
+  <li><a href="https://www.marriott.com/en-us/hotels/vbobl-residence-inn-boulder-canyon-boulevard/" target="_blank">Residence Inn by Marriott Boulder - Canyon Boulevard</a></li>
+  <li><a href="https://www.marriott.com/en-us/hotels/denbo-boulder-marriott/" target="_blank">Boulder Marriott</a></li>
+  <li><a href="https://www.hyatt.com/hyatt-place/en-US/denzb-hyatt-place-boulder-pearl-street" target="_blank">Hyatt Place Boulder - Pearl Street</a></li>
+  </ul>
+  
 button: 
-  label: "Reserve"
+  label: "Reserve at the St. Julien"
   link: "https://be.synxis.com/?Hotel=27175&arrive=2026-06-26&depart=2026-06-28&adult=2&child=0&group=46054"
 image: "images/spotlight02.jpg"
