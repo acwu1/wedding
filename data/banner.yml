@@ -2,11 +2,11 @@
 style: "style1 orient-left content-align-right image-position-center fullscreen onload-image-fade-in onload-content-fade-right"
 title : "6 | 27 | 26"
 subtitle: |
-  Brett and Albert are getting married!
+  Join us in Boulder, Colorado at the St. Julien Hotel on the weekend of June 27, 2026
 content : |
-  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+  More details coming soon! In the meantime, if you know that your plans will not allow you to join us in Boulder next June, please let us know below:
 button:
-  label : "Get Started"
-  link : "#first"
+  label : "Early Regrets"
+  link : "#earlyregrets"
 image : "images/cole-thomas-wedding-photos-from-the-harty-621.jpg"
 
