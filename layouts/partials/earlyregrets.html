@@ -26,12 +26,17 @@
                                                     <label for="email">Email</label>
                                                     <input type="email" name="email" id="email" value="" />
                                                 </div>
-                                    
+                                    <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" type="text" />
+    </label>
+  </p>
                                                 <div class="field">
                                                     <label for="message">Message</label>
                                                     <textarea name="message" id="message" rows="6"></textarea>
                                                 </div>
                                             </div>
+                                            <div data-netlify-recaptcha="true"></div>
                                             <ul class="actions">
                                                 <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
                                             </ul>
