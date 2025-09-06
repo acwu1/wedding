@@ -8,6 +8,14 @@
 	{{ partial "favicon" }}
 	{{ end }}
 	
+	<!-- Cronitor RUM -->
+<script async src="https://rum.cronitor.io/script.js"></script>
+<script>
+    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+    cronitor('config', { clientKey: '37e975b6d89fc8a7abe5b5c575a154eb' });
+</script>
+
+	
 	<!-- CSS -->
 	{{ if hugo.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
