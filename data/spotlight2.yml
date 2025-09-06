@@ -1,7 +1,7 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-id: "travel"
-title : "Travel"
+id: "venue"
+title : "Venue"
 content: |
   <p>Our weekend wedding celebration will take place in downtown Boulder, CO, centered on the St. Julien Hotel and Spa. The Friday evening welcome celebration and Sunday farewell brunch are planned to be within walking distance or a short car ride from the St. Julien; charter bus transportation will be provided between the St. Julien and the ceremony at Sunrise Amphitheater.</p>
   <p>The Denver International Airport (DEN) is the closest airport; ground transportation is available between DEN and downtown Boulder.</p>
@@ -11,7 +11,8 @@ content: |
   <table style="border:0px">
   <thead>
   <tr>
-  <th><strong>St. Julien Hotel & Spa</strong></th>
+  <th style="vertical-align: middle"><strong>St. Julien Hotel & Spa</strong></th>
+  <th style="text-align: right; vertical-align: middle"><a href="https://be.synxis.com/?Hotel=27175&arrive=2026-06-26&depart=2026-06-28&adult=2&child=0&group=46054" target="_blank" class="button primary">Reserve</a></th>
   </tr></thead>
   <tbody>
   <tr>
@@ -23,7 +24,7 @@ content: |
   
   
   
-  <p>Rooms at the St. Julien can be booked at the group rate by clicking below, or here are a few other nearby hotels:</p>
+  <p>Rooms at the St. Julien can be booked at the group rate by clicking above, or here are a few other nearby hotels:</p>
   
   
   <ul class="alt">
@@ -33,9 +34,4 @@ content: |
   <li><a href="https://www.hyatt.com/hyatt-place/en-US/denzb-hyatt-place-boulder-pearl-street" target="_blank">Hyatt Place Boulder - Pearl Street</a></li>
   </ul>
   
-  
-  
-button: 
-  label: "Reserve at the St. Julien"
-  link: "https://be.synxis.com/?Hotel=27175&arrive=2026-06-26&depart=2026-06-28&adult=2&child=0&group=46054"
 image: "images/spotlight02.jpg"
