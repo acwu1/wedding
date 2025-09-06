@@ -11,7 +11,8 @@ content: |
   <table style="border:0px">
   <thead>
   <tr>
-  <th colspan=2><strong>St. Julien Hotel & Spa</strong></th></tr></thead>
+  <th><strong>St. Julien Hotel & Spa</strong></th>
+  </tr></thead>
   <tbody>
   <tr>
   <td>900 Walnut Street<br />
@@ -24,12 +25,15 @@ content: |
   
   <p>Rooms at the St. Julien can be booked at the group rate by clicking below, or here are a few other nearby hotels:</p>
   
-  <ul>
+  
+  <ul class="alt">
   <li><a href="https://www.hilton.com/en/hotels/wbubogi-hilton-garden-inn-boulder/" target="_blank">Hilton Garden Inn Boulder</a></li>
   <li><a href="https://www.marriott.com/en-us/hotels/vbobl-residence-inn-boulder-canyon-boulevard/" target="_blank">Residence Inn by Marriott Boulder - Canyon Boulevard</a></li>
   <li><a href="https://www.marriott.com/en-us/hotels/denbo-boulder-marriott/" target="_blank">Boulder Marriott</a></li>
   <li><a href="https://www.hyatt.com/hyatt-place/en-US/denzb-hyatt-place-boulder-pearl-street" target="_blank">Hyatt Place Boulder - Pearl Street</a></li>
   </ul>
+  
+  
   
 button: 
   label: "Reserve at the St. Julien"
