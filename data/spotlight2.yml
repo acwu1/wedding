@@ -3,7 +3,7 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "venue"
 title : "Venue"
 content: |
-  <p>Our weekend wedding celebration will take place in scenic downtown Boulder, Colorado, centered on the St. Julien Hotel and Spa. The Friday evening welcome celebration and Sunday farewell brunch are planned to be within walking distance or a short car ride from the St. Julien; charter bus transportation will be provided between the St. Julien and the ceremony at Sunrise Amphitheater.</p>
+  <p>Our weekend wedding celebration will take place in scenic downtown Boulder, centered on the St. Julien Hotel and Spa. The Friday evening welcome celebration and Sunday farewell brunch are planned to be within walking distance or a short car ride from the St. Julien; charter bus transportation will be provided between the St. Julien and the ceremony at Sunrise Amphitheater.</p>
   <p>Denver International Airport (DEN) is the closest airport; ground transportation is available between DEN and downtown Boulder.</p>
   
   
@@ -24,7 +24,7 @@ content: |
   
   
   
-  <p>Rooms at the St. Julien can be booked at the group rate by clicking above, or here are a few other nearby hotels:</p>
+  <p>Rooms at the St. Julien can be booked at our group rate by clicking above, or here are a few other nearby hotels:</p>
   
   
   <ul class="alt">
