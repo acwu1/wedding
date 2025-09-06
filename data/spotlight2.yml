@@ -3,8 +3,8 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "venue"
 title : "Venue"
 content: |
-  <p>Our weekend wedding celebration will take place in downtown Boulder, CO, centered on the St. Julien Hotel and Spa. The Friday evening welcome celebration and Sunday farewell brunch are planned to be within walking distance or a short car ride from the St. Julien; charter bus transportation will be provided between the St. Julien and the ceremony at Sunrise Amphitheater.</p>
-  <p>The Denver International Airport (DEN) is the closest airport; ground transportation is available between DEN and downtown Boulder.</p>
+  <p>Our weekend wedding celebration will take place in scenic downtown Boulder, Colorado, centered on the St. Julien Hotel and Spa. The Friday evening welcome celebration and Sunday farewell brunch are planned to be within walking distance or a short car ride from the St. Julien; charter bus transportation will be provided between the St. Julien and the ceremony at Sunrise Amphitheater.</p>
+  <p>Denver International Airport (DEN) is the closest airport; ground transportation is available between DEN and downtown Boulder.</p>
   
   
   <div class="box">
@@ -16,10 +16,10 @@ content: |
   </tr></thead>
   <tbody>
   <tr>
-  <td>900 Walnut Street<br />
+  <td style="vertical-align: middle">900 Walnut Street<br />
   Boulder, CO 80302</td>
-  <td>+1 (720) 406-9696<br /> 
-  <a href="mailto:sjreservations@stjulien.com">sjreservations@stjulien.com</a></td></tr></tbody></table>
+  <td style="vertical-align: middle">+1 (720) 406-9696<br /> 
+  <a href="mailto:sjreservations@stjulien.com">sjreservations&#8203;@stjulien.com</a></td></tr></tbody></table>
   </div>
   
   
