@@ -1,7 +1,7 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-center image-position-center onscroll-image-fade-in"
 id: "schedule"
-title : "Schedule"
+title : "Itinerary"
 content: |
  <section>
   Friday, June 26<sup>th</sup> 2026<br /><br />
