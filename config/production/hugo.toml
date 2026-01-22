@@ -37,10 +37,10 @@ disableKinds = ["taxonomy", "section"]
   favicon = true
 
 [Params.social]
-  github = "https://github.com/acwu1/"
+  #github = "https://github.com/acwu1/"
   #twitter = "https://twitter.com/caressofsteel_"
-  email = "albert.c.wu@gmail.com"
-  instagram = "https://instagram.com/aonicc"
+  #email = "albert.c.wu@gmail.com"
+  #instagram = "https://instagram.com/aonicc"
   #linkedin = "https://linkedin.com"
   #telegram = "https://telegram.org"
 
