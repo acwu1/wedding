@@ -30,12 +30,14 @@ console.log(selectedValue)
                             <!-- Form -->
                             	<section>
                                     <header>
-                                        <h3>&nbsp;</h3>
-                                        <p>First, how many guests are you RSVPing for?</p>
+                                    <div style="width:90%">
+                                        <h3>First, how many guests are you RSVPing for?</h3>
+                                        <p>(Including yourself)</p>
+                                        </div>
                                     </header>
                                     <div class="content">
                                     <div class="field">
-                                                    <label for="numguests">Number of guests in party</label>
+                                                    
                                                     <select name="numguests" id="numguests" onchange="showHideElement(this, 'guest2', '2', 'flex')">
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -75,9 +77,12 @@ console.log(selectedValue)
                                                <div id="guest1meal" class="field">
                                                     <label for="guest1meal">&nbsp;<br />Meal selection</label>
                                                     <select name="guest1meal" id="guest1meal">
+                                                    	<option value="select"> --- Select a meal ---</option>
                                                         <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
                                                         <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
                                                         <option value="pork">Roasted Garlic & Rosemary Pork Tenderloin with Natural Jus, Roasted Purple Potatoes & Broccolini</option>
+                                                        <option value="vegetarian">Vegetarian Option (Chef's creation)</option>
+                                                        <option value="vegan">Vegan Option (Chef's creation)</option>
                                                     </select>
                                                 </div>
                                   				<div id="guest1dietary" class="field">
@@ -136,9 +141,12 @@ console.log(selectedValue)
                                                <div id="guest2meal" class="field">
                                                     <label for="guest2meal">&nbsp;<br />Meal selection</label>
                                                     <select name="guest2meal" id="guest2meal">
+                                                    	<option value="select"> --- Select a meal ---</option>
                                                         <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
                                                         <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
                                                         <option value="pork">Roasted Garlic & Rosemary Pork Tenderloin with Natural Jus, Roasted Purple Potatoes & Broccolini</option>
+                                                        <option value="vegetarian">Vegetarian Option (Chef's creation)</option>
+                                                        <option value="vegan">Vegan Option (Chef's creation)</option>
                                                     </select>
                                                 </div>
                                   				<div id="guest2dietary" class="field">
