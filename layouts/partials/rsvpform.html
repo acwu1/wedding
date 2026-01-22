@@ -18,7 +18,7 @@ console.log(selectedValue)
 				-->
 				</script>
 				
-				
+		<form name="rsvp" id="rsvp" data-netlify-recaptcha="true" class="field half" netlify>		
 				
 				<!-- Additional Elements -->
                 <section class="wrapper style1 align-center">
@@ -36,7 +36,7 @@ console.log(selectedValue)
                                     <div class="content">
                                     <div class="field">
                                                     <label for="numguests">Number of guests in party</label>
-                                                    <select form="rsvp" name="numguests" id="numguests" onchange="showHideElement(this, 'guest2', '2', 'flex')">
+                                                    <select name="numguests" id="numguests" onchange="showHideElement(this, 'guest2', '2', 'flex')">
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
                                                     </select>
@@ -52,21 +52,21 @@ console.log(selectedValue)
                                             <div class="fields">
                                                 <div class="field half">
                                                     <label for="name">Name</label>
-                                                    <input form="rsvp" type="text" name="name" id="name" value="" />
+                                                    <input type="text" name="name" id="name" value="" />
                                                 </div>
                                                 <div class="field half">
                                                     <label for="email">Email</label>
-                                                    <input form="rsvp" type="email" name="email" id="email" value="" />
+                                                    <input type="email" name="email" id="email" value="" />
                                                 </div>
                                                 <div class="field">
                                                     <label for="attending">Will you be joining us for our celebration?</label>
                                                 </div>
                                                 <div class="field half">
-                                                    <input form="rsvp" type="radio" id="guest1attending-yes" name="guest1attending" checked onchange="showHideElement(this, 'guest1meal', 'on', 'block'); showHideElement(this, 'guest1dietary', 'on', 'block'); showHideElement(this, 'guest1frisun', 'on', 'block'); showHideElement(this, 'guest1fri', 'on', 'block'); showHideElement(this, 'guest1sun', 'on', 'block')" checked />
+                                                    <input type="radio" id="guest1attending-yes" name="guest1attending" checked onchange="showHideElement(this, 'guest1meal', 'on', 'block'); showHideElement(this, 'guest1dietary', 'on', 'block'); showHideElement(this, 'guest1frisun', 'on', 'block'); showHideElement(this, 'guest1fri', 'on', 'block'); showHideElement(this, 'guest1sun', 'on', 'block')" checked />
                                                     <label for="guest1attending-yes">Yes!</label>
                                                 </div>
                                                 <div class="field half">
-                                                    <input form="rsvp" type="radio" id="guest1attending-no" name="guest1attending" onchange="showHideElement(this, 'guest1meal', '', 'block'); showHideElement(this, 'guest1dietary', '', 'block'); showHideElement(this, 'guest1frisun', '', 'block'); showHideElement(this, 'guest1fri', '', 'block'); showHideElement(this, 'guest1sun', '', 'block')"/>
+                                                    <input type="radio" id="guest1attending-no" name="guest1attending" onchange="showHideElement(this, 'guest1meal', '', 'block'); showHideElement(this, 'guest1dietary', '', 'block'); showHideElement(this, 'guest1frisun', '', 'block'); showHideElement(this, 'guest1fri', '', 'block'); showHideElement(this, 'guest1sun', '', 'block')"/>
                                                     <label for="guest1attending-no">No</label>
                                                 </div>
                                                 
@@ -74,7 +74,7 @@ console.log(selectedValue)
 
                                                <div id="guest1meal" class="field">
                                                     <label for="guest1meal">&nbsp;<br />Meal selection</label>
-                                                    <select form="rsvp" name="guest1meal" id="guest1meal">
+                                                    <select name="guest1meal" id="guest1meal">
                                                         <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
                                                         <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
                                                         <option value="pork">Roasted Garlic & Rosemary Pork Tenderloin with Natural Jus, Roasted Purple Potatoes & Broccolini</option>
@@ -82,18 +82,18 @@ console.log(selectedValue)
                                                 </div>
                                   				<div id="guest1dietary" class="field">
                                                     <label for="guest1dietary">Dietary restrictions</label>
-                                                    <textarea form="rsvp" name="guest1dietary" id="guest1dietary" rows="2"></textarea>
+                                                    <textarea name="guest1dietary" id="guest1dietary" rows="2"></textarea>
                                                 </div>
                                                
                                                <div id="guest1frisun" class="field">
                                                     <label>Can we expect you at our other events?</label>
                                                 </div>
                                             <div id="guest1fri" class="field half">
-                                                    <input form="rsvp" type="checkbox" id="guest1fricheck" name="guest1fricheck" checked />
+                                                    <input type="checkbox" id="guest1fricheck" name="guest1fricheck" checked />
                                                     <label for="guest1fricheck">Friday evening welcome reception</label>
                                                 </div>
                                                 <div id="guest1sun" class="field half">
-                                                    <input form="rsvp" type="checkbox" id="guest1suncheck" name="guest1suncheck" checked />
+                                                    <input type="checkbox" id="guest1suncheck" name="guest1suncheck" checked />
                                                     <label for="guest1suncheck">Sunday afternoon farewell brunch</label>
                                                 </div>
                                                
@@ -113,21 +113,21 @@ console.log(selectedValue)
                                             <div class="fields">
                                                 <div class="field half">
                                                     <label for="name">Name</label>
-                                                    <input form="rsvp" type="text" name="name" id="name" value="" />
+                                                    <input type="text" name="name" id="name" value="" />
                                                 </div>
                                                 <div class="field half">
                                                     <label for="email">Email</label>
-                                                    <input form="rsvp" type="email" name="email" id="email" value="" />
+                                                    <input type="email" name="email" id="email" value="" />
                                                 </div>
                                                 <div class="field">
                                                     <label for="attending">Will you be joining us for our celebration?</label>
                                                 </div>
                                                 <div class="field half">
-                                                    <input form="rsvp" type="radio" id="guest2attending-yes" name="guest2attending" onchange="showHideElement(this, 'guest2meal', 'on', 'block'); showHideElement(this, 'guest2dietary', 'on', 'block'); showHideElement(this, 'guest2frisun', 'on', 'block'); showHideElement(this, 'guest2fri', 'on', 'block'); showHideElement(this, 'guest2sun', 'on', 'block')" checked />
+                                                    <input type="radio" id="guest2attending-yes" name="guest2attending" onchange="showHideElement(this, 'guest2meal', 'on', 'block'); showHideElement(this, 'guest2dietary', 'on', 'block'); showHideElement(this, 'guest2frisun', 'on', 'block'); showHideElement(this, 'guest2fri', 'on', 'block'); showHideElement(this, 'guest2sun', 'on', 'block')" checked />
                                                     <label for="guest2attending-yes">Yes!</label>
                                                 </div>
                                                 <div class="field half">
-                                                    <input form="rsvp" type="radio" id="guest2attending-no" name="guest2attending" onchange="showHideElement(this, 'guest2meal', '', 'block'); showHideElement(this, 'guest2dietary', '', 'block'); showHideElement(this, 'guest2frisun', '', 'block'); showHideElement(this, 'guest2fri', '', 'block'); showHideElement(this, 'guest2sun', '', 'block')" />
+                                                    <input type="radio" id="guest2attending-no" name="guest2attending" onchange="showHideElement(this, 'guest2meal', '', 'block'); showHideElement(this, 'guest2dietary', '', 'block'); showHideElement(this, 'guest2frisun', '', 'block'); showHideElement(this, 'guest2fri', '', 'block'); showHideElement(this, 'guest2sun', '', 'block')" />
                                                     <label for="guest2attending-no">No</label>
                                                 </div>
                                                 
@@ -135,7 +135,7 @@ console.log(selectedValue)
 
                                                <div id="guest2meal" class="field">
                                                     <label for="guest2meal">&nbsp;<br />Meal selection</label>
-                                                    <select form="rsvp" name="guest2meal" id="guest2meal">
+                                                    <select name="guest2meal" id="guest2meal">
                                                         <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
                                                         <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
                                                         <option value="pork">Roasted Garlic & Rosemary Pork Tenderloin with Natural Jus, Roasted Purple Potatoes & Broccolini</option>
@@ -143,18 +143,18 @@ console.log(selectedValue)
                                                 </div>
                                   				<div id="guest2dietary" class="field">
                                                     <label for="guest2dietary">Dietary restrictions</label>
-                                                    <textarea form="rsvp" name="guest2dietary" id="guest2dietary" rows="2"></textarea>
+                                                    <textarea name="guest2dietary" id="guest2dietary" rows="2"></textarea>
                                                 </div>
                                                
                                                <div id="guest2frisun" class="field">
                                                     <label>Can we expect you at our other events?</label>
                                                 </div>
                                             <div id="guest2fri" class="field half">
-                                                    <input form="rsvp" type="checkbox" id="guest2fricheck" name="guest2fricheck" checked />
+                                                    <input type="checkbox" id="guest2fricheck" name="guest2fricheck" checked />
                                                     <label for="guest2fricheck">Friday evening welcome reception</label>
                                                 </div>
                                                 <div id="guest2sun" class="field half">
-                                                    <input form="rsvp" type="checkbox" id="guest2suncheck" name="guest2suncheck" checked />
+                                                    <input type="checkbox" id="guest2suncheck" name="guest2suncheck" checked />
                                                     <label for="guest2suncheck">Sunday afternoon farewell brunch</label>
                                                 </div>
                                                
@@ -173,16 +173,16 @@ console.log(selectedValue)
                                 
                                 			<div class="field">
                                                     <label for="message">Message</label>
-                                                    <textarea form="rsvp" name="message" id="message" rows="4"></textarea>
+                                                    <textarea name="message" id="message" rows="4"></textarea>
                                                     <br />
                                                 </div>
                                                 <div class="fields">
                                 <div class="field half" data-netlify-recaptcha="true"></div>
-                                            <form name="rsvp" id="rsvp" data-netlify-recaptcha="true" class="field half" netlify>
+                                            
                                             <ul class="actions" style="justify-content: flex-end; align-items: center;">
                                                 <li><input type="submit" name="submit" id="submit" value="Send RSVP" /></li>
                                             </ul>
-                                        </form>
+                                        
 									</div>
                                     </div>
                                 </section>
@@ -194,3 +194,4 @@ console.log(selectedValue)
 
                     </div>
                 </section>
+</form>
