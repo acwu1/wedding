@@ -1,68 +1,189 @@
+				<script>
+				<!--
+				function showHideElement(selectElement, toggleElement, showValue, showState) {
+    				const guest2Section = document.getElementById(toggleElement);
+    				const selectedValue = selectElement.value;
+
+console.log(selectedValue)
+
+    				if (selectedValue === showValue) {
+        				// Show the section
+        				guest2Section.style.display = showState; 
+    				} else {
+       					// Hide the section for 'no' or the default empty option
+        				guest2Section.style.display = 'none';
+    				}
+				}
+				
+				-->
+				</script>
+				
+				
+				
 				<!-- Additional Elements -->
                 <section class="wrapper style1 align-center">
                     <div class="inner">
-                        <h2>Additional Elements</h2>
-                        <p>Finally, here are some additional elements you <em>might</em> find useful (and yup, they look fine with any <span class="demo-controls">appearance</span>).</p>
+                        
                         <div class="index align-left">
 
 
                             <!-- Form -->
-                                <section>
+                            	<section>
                                     <header>
-                                        <h3>Form</h3>
+                                        <h3>&nbsp;</h3>
+                                        <p>First, how many guests are you RSVPing for?</p>
                                     </header>
                                     <div class="content">
-
-                                        <form method="post" action="#">
+                                    <div class="field">
+                                                    <label for="numguests">Number of guests in party</label>
+                                                    <select form="rsvp" name="numguests" id="numguests" onchange="showHideElement(this, 'guest2', '2', 'flex')">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                    </select>
+                                                </div>
+                                    </div>
+                                </section>
+                                <section id="guest1" style="display: flex">
+                                    <header>
+                                        <h3>Guest 1</h3>
+                                    </header>
+                                    <div class="content">
+                                        
                                             <div class="fields">
                                                 <div class="field half">
                                                     <label for="name">Name</label>
-                                                    <input type="text" name="name" id="name" value="" />
+                                                    <input form="rsvp" type="text" name="name" id="name" value="" />
                                                 </div>
                                                 <div class="field half">
                                                     <label for="email">Email</label>
-                                                    <input type="email" name="email" id="email" value="" />
+                                                    <input form="rsvp" type="email" name="email" id="email" value="" />
                                                 </div>
                                                 <div class="field">
-                                                    <label for="department">Department</label>
-                                                    <select name="department" id="department">
-                                                        <option value="">- Category -</option>
-                                                        <option value="1">Manufacturing</option>
-                                                        <option value="2">Shipping</option>
-                                                        <option value="3">Administration</option>
-                                                        <option value="4">Human Resources</option>
+                                                    <label for="attending">Will you be joining us for our celebration?</label>
+                                                </div>
+                                                <div class="field half">
+                                                    <input form="rsvp" type="radio" id="attending-yes" name="attending" checked onchange="showHideElement(this, 'guest1meal', 'on', 'block'); showHideElement(this, 'guest1dietary', 'on', 'block'); showHideElement(this, 'guest1frisun', 'on', 'block'); showHideElement(this, 'guest1fri', 'on', 'block'); showHideElement(this, 'guest1sun', 'on', 'block')" />
+                                                    <label for="attending-yes">Yes!</label>
+                                                </div>
+                                                <div class="field half">
+                                                    <input form="rsvp" type="radio" id="attending-no" name="attending" onchange="showHideElement(this, 'guest1meal', '', 'block'); showHideElement(this, 'guest1dietary', '', 'block'); showHideElement(this, 'guest1frisun', '', 'block'); showHideElement(this, 'guest1fri', '', 'block'); showHideElement(this, 'guest1sun', '', 'block')"/>
+                                                    <label for="attending-no">No</label>
+                                                </div>
+                                                
+                                                
+
+                                               <div id="guest1meal" class="field">
+                                                    <label for="guest1meal">&nbsp;<br />Meal selection</label>
+                                                    <select form="rsvp" name="guest1meal" id="guest1meal">
+                                                        <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
+                                                        <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
+                                                        <option value="pork">Roasted Garlic & Rosemary Pork Tenderloin with Natural Jus, Roasted Purple Potatoes & Broccolini</option>
                                                     </select>
                                                 </div>
-                                                <div class="field third">
-                                                    <input type="radio" id="priority-low" name="priority" checked />
-                                                    <label for="priority-low">Low Priority</label>
+                                  				<div id="guest1dietary" class="field">
+                                                    <label for="guest1dietary">Dietary restrictions</label>
+                                                    <textarea form="rsvp" name="guest1dietary" id="guest1dietary" rows="2"></textarea>
                                                 </div>
-                                                <div class="field third">
-                                                    <input type="radio" id="priority-normal" name="priority" />
-                                                    <label for="priority-normal">Normal Priority</label>
+                                               
+                                               <div id="guest1frisun" class="field">
+                                                    <label for="attending">Can we expect you at our other events?</label>
                                                 </div>
-                                                <div class="field third">
-                                                    <input type="radio" id="priority-high" name="priority" />
-                                                    <label for="priority-high">High Priority</label>
+                                            <div id="guest1fri" class="field half">
+                                                    <input form="rsvp" type="checkbox" id="copy" name="copy" checked />
+                                                    <label for="copy">Friday evening welcome reception</label>
+                                                </div>
+                                                <div id="guest1sun" class="field half">
+                                                    <input form="rsvp" type="checkbox" id="human" name="human" checked />
+                                                    <label for="human">Sunday afternoon farewell brunch</label>
+                                                </div>
+                                               
+                                                
+                                                
+                                            </div>
+                                            
+                                    </div>
+                                </section>
+                                
+                                <section id="guest2" style="display: none">
+                                    <header>
+                                        <h3>Guest 2</h3>
+                                    </header>
+                                    <div class="content">
+                                        
+                                            <div class="fields">
+                                                <div class="field half">
+                                                    <label for="name">Name</label>
+                                                    <input form="rsvp" type="text" name="name" id="name" value="" />
+                                                </div>
+                                                <div class="field half">
+                                                    <label for="email">Email</label>
+                                                    <input form="rsvp" type="email" name="email" id="email" value="" />
                                                 </div>
                                                 <div class="field">
-                                                    <label for="message">Message</label>
-                                                    <textarea name="message" id="message" rows="6"></textarea>
+                                                    <label for="attending">Will you be joining us for our celebration?</label>
                                                 </div>
                                                 <div class="field half">
-                                                    <input type="checkbox" id="copy" name="copy" />
-                                                    <label for="copy">Email me a copy of this message</label>
+                                                    <input form="rsvp" type="radio" id="attending-yes" name="attending" checked onchange="showHideElement(this, 'guest2meal', 'on', 'block'); showHideElement(this, 'guest2dietary', 'on', 'block'); showHideElement(this, 'guest2frisun', 'on', 'block'); showHideElement(this, 'guest2fri', 'on', 'block'); showHideElement(this, 'guest2sun', 'on', 'block')" />
+                                                    <label for="attending-yes">Yes!</label>
                                                 </div>
                                                 <div class="field half">
-                                                    <input type="checkbox" id="human" name="human" checked />
-                                                    <label for="human">I am a human and not a robot</label>
+                                                    <input form="rsvp" type="radio" id="attending-no" name="attending" onchange="showHideElement(this, 'guest2meal', '', 'block'); showHideElement(this, 'guest2dietary', '', 'block'); showHideElement(this, 'guest2frisun', '', 'block'); showHideElement(this, 'guest2fri', '', 'block'); showHideElement(this, 'guest2sun', '', 'block')"/>
+                                                    <label for="attending-no">No</label>
                                                 </div>
+                                                
+                                                
+
+                                               <div id="guest2meal" class="field">
+                                                    <label for="guest2meal">&nbsp;<br />Meal selection</label>
+                                                    <select form="rsvp" name="guest2meal" id="guest2meal">
+                                                        <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
+                                                        <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
+                                                        <option value="pork">Roasted Garlic & Rosemary Pork Tenderloin with Natural Jus, Roasted Purple Potatoes & Broccolini</option>
+                                                    </select>
+                                                </div>
+                                  				<div id="guest2dietary" class="field">
+                                                    <label for="guest2dietary">Dietary restrictions</label>
+                                                    <textarea form="rsvp" name="guest2dietary" id="guest2dietary" rows="2"></textarea>
+                                                </div>
+                                               
+                                               <div id="guest2frisun" class="field">
+                                                    <label for="attending">Can we expect you at our other events?</label>
+                                                </div>
+                                            <div id="guest2fri" class="field half">
+                                                    <input form="rsvp" type="checkbox" id="copy" name="copy" checked />
+                                                    <label for="copy">Friday evening welcome reception</label>
+                                                </div>
+                                                <div id="guest2sun" class="field half">
+                                                    <input form="rsvp" type="checkbox" id="human" name="human" checked />
+                                                    <label for="human">Sunday afternoon farewell brunch</label>
+                                                </div>
+                                               
+                                                
+                                                
                                             </div>
-                                            <ul class="actions">
-                                                <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+                                            
+                                    </div>
+                                </section>
+                                
+                                <section style="display: flex">
+                                    <header>
+                                        <h3>&nbsp;</h3>
+                                    </header>
+                                    <div class="content">
+                                
+                                			<div class="field">
+                                                    <label for="message">Message</label>
+                                                    <textarea form="rsvp" name="message" id="message" rows="4"></textarea>
+                                                    <br />
+                                                </div>
+                                                <div class="fields">
+                                <div class="field half" data-netlify-recaptcha="true"></div>
+                                            <form name="rsvp" id="rsvp" data-netlify-recaptcha="true" class="field half" netlify>
+                                            <ul class="actions" style="justify-content: flex-end">
+                                                <li><input type="submit" name="submit" id="submit" value="Send RSVP" /></li>
                                             </ul>
                                         </form>
-
+									</div>
                                     </div>
                                 </section>
 
