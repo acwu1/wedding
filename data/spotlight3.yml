@@ -6,3 +6,7 @@ content: |
   RSVP intro copy here, maybe menu items?
 
 image: "/images/spotlight03.jpg"
+
+button:
+  label : "Return to main page"
+  link : "/"
