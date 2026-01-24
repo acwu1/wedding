@@ -65,11 +65,11 @@ console.log(selectedValue)
                                                 </div>
                                                 <div class="field half">
                                                     <input type="radio" id="guest1attending-yes" name="guest1attending" checked onchange="showHideElement(this, 'guest1meal', 'on', 'block'); showHideElement(this, 'guest1dietary', 'on', 'block'); showHideElement(this, 'guest1frisun', 'on', 'block'); showHideElement(this, 'guest1fri', 'on', 'block'); showHideElement(this, 'guest1sun', 'on', 'block')" checked />
-                                                    <label for="guest1attending-yes">Yes!</label>
+                                                    <label for="guest1attending-yes">Yes! I'll be there.</label>
                                                 </div>
                                                 <div class="field half">
                                                     <input type="radio" id="guest1attending-no" name="guest1attending" onchange="showHideElement(this, 'guest1meal', '', 'block'); showHideElement(this, 'guest1dietary', '', 'block'); showHideElement(this, 'guest1frisun', '', 'block'); showHideElement(this, 'guest1fri', '', 'block'); showHideElement(this, 'guest1sun', '', 'block')"/>
-                                                    <label for="guest1attending-no">No</label>
+                                                    <label for="guest1attending-no">Sorry, I can't make it.</label>
                                                 </div>
                                                 
                                                 
@@ -90,16 +90,12 @@ console.log(selectedValue)
                                                     <textarea name="guest1dietary" id="guest1dietary" rows="2"></textarea>
                                                 </div>
                                                
-                                               <div id="guest1frisun" class="field">
-                                                    <label>Can we expect you at our other events?</label>
+                                               <div id="guest1frisun" class="field half">
+                                                    <label>Can we expect you Friday evening as well?</label>
                                                 </div>
                                             <div id="guest1fri" class="field half">
                                                     <input type="checkbox" id="guest1fricheck" name="guest1fricheck" checked />
-                                                    <label for="guest1fricheck">Friday evening welcome reception</label>
-                                                </div>
-                                                <div id="guest1sun" class="field half">
-                                                    <input type="checkbox" id="guest1suncheck" name="guest1suncheck" checked />
-                                                    <label for="guest1suncheck">Sunday afternoon farewell brunch</label>
+                                                    <label for="guest1fricheck">Yes</label>
                                                 </div>
                                                
                                                 
@@ -129,11 +125,11 @@ console.log(selectedValue)
                                                 </div>
                                                 <div class="field half">
                                                     <input type="radio" id="guest2attending-yes" name="guest2attending" onchange="showHideElement(this, 'guest2meal', 'on', 'block'); showHideElement(this, 'guest2dietary', 'on', 'block'); showHideElement(this, 'guest2frisun', 'on', 'block'); showHideElement(this, 'guest2fri', 'on', 'block'); showHideElement(this, 'guest2sun', 'on', 'block')" checked />
-                                                    <label for="guest2attending-yes">Yes!</label>
+                                                    <label for="guest2attending-yes">Yes! I'll be there.</label>
                                                 </div>
                                                 <div class="field half">
                                                     <input type="radio" id="guest2attending-no" name="guest2attending" onchange="showHideElement(this, 'guest2meal', '', 'block'); showHideElement(this, 'guest2dietary', '', 'block'); showHideElement(this, 'guest2frisun', '', 'block'); showHideElement(this, 'guest2fri', '', 'block'); showHideElement(this, 'guest2sun', '', 'block')" />
-                                                    <label for="guest2attending-no">No</label>
+                                                    <label for="guest2attending-no">Sorry, I can't make it.</label>
                                                 </div>
                                                 
                                                 
@@ -154,16 +150,12 @@ console.log(selectedValue)
                                                     <textarea name="guest2dietary" id="guest2dietary" rows="2"></textarea>
                                                 </div>
                                                
-                                               <div id="guest2frisun" class="field">
-                                                    <label>Can we expect you at our other events?</label>
+                                               <div id="guest2frisun" class="field half">
+                                                    <label>Can we expect you Friday evening as well?</label>
                                                 </div>
                                             <div id="guest2fri" class="field half">
                                                     <input type="checkbox" id="guest2fricheck" name="guest2fricheck" checked />
-                                                    <label for="guest2fricheck">Friday evening welcome reception</label>
-                                                </div>
-                                                <div id="guest2sun" class="field half">
-                                                    <input type="checkbox" id="guest2suncheck" name="guest2suncheck" checked />
-                                                    <label for="guest2suncheck">Sunday afternoon farewell brunch</label>
+                                                    <label for="guest2fricheck">Yes</label>
                                                 </div>
                                                
                                                 
@@ -180,7 +172,7 @@ console.log(selectedValue)
                                     <div class="content">
                                 
                                 			<div class="field">
-                                                    <label for="message">Message</label>
+                                                    <label for="message">Would you like to leave us a note?</label>
                                                     <textarea name="message" id="message" rows="4"></textarea>
                                                     <br />
                                                 </div>
