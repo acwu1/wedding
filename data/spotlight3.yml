@@ -3,10 +3,12 @@ style: "style1 orient-right content-align-left image-position-center"
 id: "first"
 title : "RSVP"
 content: |
-  RSVP intro copy here, maybe menu items?
+  <p>It is our honor to invite you to join us for our wedding celebration in Boulder, Colorado over the weekend of June&nbsp;27<sup>th</sup>,&nbsp;2026.</p>
+
+  <p>Friends, family and distinguished guests will gather to kick off the celebration beginning with a welcome reception at the iconic Boulder Dushanbe Tea House during the evening of Friday, June&nbsp;26<sup>th</sup>.</p>
+
+  <p>The following day, attendees will gather at the St. Julien Hotel and be ferried to the Sunrise Amphitheatre for our early evening ceremony among the famed Flatirons. Afterward, please join us for an unforgettable night of drinks, dinner and dancing as we begin our new life together surrounded by our loved ones!</p>
+
+  <p style="font-style: italic">We have decided to host a wedding gathering for guests aged 18 and older. With love and respect, we ask that our guests with children make alternate arrangements</p>
 
 image: "/images/spotlight03.jpg"
-
-button:
-  label : "Return to main page"
-  link : "/"
