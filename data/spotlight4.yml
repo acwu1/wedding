@@ -1,0 +1,12 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center"
+id: "first"
+title : "Thank you!"
+content: |
+  <p>We've received your RSVP. We can't wait to see you in June!</p>
+
+image: "/images/spotlight03.jpg"
+
+button:
+  label : "Return to main page"
+  link : "/"
