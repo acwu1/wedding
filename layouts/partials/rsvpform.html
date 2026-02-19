@@ -15,6 +15,22 @@ console.log(selectedValue)
     				}
 				}
 				
+				function requireElement(selectElement, toggleElement, requireValue) {
+    				const guest2Section = document.getElementById(toggleElement);
+    				const selectedValue = selectElement.value;
+    				
+    				console.log(selectedValue);
+    				console.log(toggleElement);
+
+    				if (selectedValue === requireValue) {
+        				// require the section
+        				guest2Section.setAttribute('required', 'required'); 
+    				} else {
+       					// Hide the section for 'no' or the default empty option
+        				guest2Section.removeAttribute('required');
+    				}
+				}
+				
 				-->
 				</script>
 				
@@ -38,7 +54,7 @@ console.log(selectedValue)
                                     <div class="content">
                                     <div class="field">
                                                     
-                                                    <select name="numguests" id="numguests" onchange="showHideElement(this, 'guest2', '2', 'flex')">
+                                                    <select name="numguests" id="numguests" onchange=" requireElement(this, 'guest2name', '2'); requireElement(this, 'guest2email', '2'); showHideElement(this, 'guest2', '2', 'flex');">
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
                                                     </select>
@@ -54,11 +70,11 @@ console.log(selectedValue)
                                             <div class="fields">
                                                 <div class="field half">
                                                     <label for="name">Name</label>
-                                                    <input type="text" name="guest1name" id="name" value="" required />
+                                                    <input type="text" name="guest1name" id="guest1name" value="" required />
                                                 </div>
                                                 <div class="field half">
                                                     <label for="email">Email</label>
-                                                    <input type="email" name="guest1email" id="email" value="" required />
+                                                    <input type="email" name="guest1email" id="guest1email" value="" required />
                                                 </div>
                                                 <div class="field">
                                                     <label for="attending">Will you be joining us for our celebration?</label>
@@ -76,7 +92,7 @@ console.log(selectedValue)
 
                                                <div id="guest1meal" class="field">
                                                     <label for="guest1meal">&nbsp;<br />Meal selection</label>
-                                                    <select name="guest1meal" id="guest1meal" required>
+                                                    <select name="guest1meal" id="guest1meal">
                                                     	<option value="" disabled selected> ––– Select a meal –––</option>
                                                         <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
                                                         <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
@@ -114,11 +130,11 @@ console.log(selectedValue)
                                             <div class="fields">
                                                 <div class="field half">
                                                     <label for="name">Name</label>
-                                                    <input type="text" name="guest2name" id="name" value="" required />
+                                                    <input type="text" name="guest2name" id="guest2name" value="" />
                                                 </div>
                                                 <div class="field half">
                                                     <label for="email">Email</label>
-                                                    <input type="email" name="guest2email" id="email" value="" required />
+                                                    <input type="email" name="guest2email" id="guest2email" value="" />
                                                 </div>
                                                 <div class="field">
                                                     <label for="attending">Will you be joining us for our celebration?</label>
@@ -136,7 +152,7 @@ console.log(selectedValue)
 
                                                <div id="guest2meal" class="field">
                                                     <label for="guest2meal">&nbsp;<br />Meal selection</label>
-                                                    <select name="guest2meal" id="guest2meal" required>
+                                                    <select name="guest2meal" id="guest2meal">
                                                     	<option value="" disabled selected> ––– Select a meal –––</option>
                                                         <option value="beef">Filet Mignon (warm red center) with Sauce Bordelaise, Roasted Purple Potatoes & Broccolini</option>
                                                         <option value="fish">Seared Chilean Sea Bass with Charred Lemon Sauce, Seared Polenta Cake & Marinated Cherry Tomatoes</option>
